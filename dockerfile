@@ -1,4 +1,4 @@
-FROM java:8
+FROM java:latest
 WORKDIR /
 ADD app-tx.jar app-tx.jar
 ADD app-rx.jar app-rx.jar
